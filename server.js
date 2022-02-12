@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require("path")
 
-const notasRoutes = require("./routes/notas")
+const notasRouters = require("./routers/notas")
 
 
 function views(document){
@@ -25,12 +25,15 @@ app.use(express.text());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-app.use(notasRoutes)
+app.use(notasRouters)
+
+
 
 
 app.get('/',function(peticion,respuesta){
     return respuesta.sendFile(views("index.html"))
 })
+
 
 
 

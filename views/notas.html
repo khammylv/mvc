@@ -7,6 +7,29 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>notas</h1>
+    <div id = notas></div>
+    <script>
+        fetch("/api/notas") 
+        .then(function(respuesta){
+          return respuesta.json()
+        })
+
+        .then(function(data){
+            
+            var notas = document.getElementById("notas")
+            for(var nota of data){
+                notas.innerHTML = notas.innerHTML + `<div class="notas">
+                        <p class="name">${nota.con_nota}</p>
+                        <p>${nota.f_inicio}</p>
+                        <p>${nota.f_fin}</p>
+                        <p>${nota.tipo_tarea}</p>
+                        
+                    </div>`
+            }
+        
+        })
+
+    </script>
 </body>
 </html>

@@ -33,7 +33,7 @@ router.get("/notas",(req,res)=>{
 })
 
 router.get("/api/notas",async (req,res)=>{
-    var notas = await notasController.readAll()
+    var notas = await notaController.readAll()
     return res.json(notas)
 })
 
