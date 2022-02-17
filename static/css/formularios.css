@@ -1,0 +1,83 @@
+.registro {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 50px;
+}
+
+.letra {
+  width: 500px;
+}
+
+.letra h1 {
+  color: #ff5c8a;
+  font-size: 50px;
+}
+
+.formulario {
+  box-shadow: 0 0 6px 0 rgba(241, 166, 207, 0.8);
+  border-radius: 10px;
+  padding: 30px;
+  height: 400px;
+}
+
+.formulario input {
+  height: 30px;
+
+  color: white;
+  background: hotpink;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.formulario button {
+  height: 20px;
+  width: 80px;
+  background-color: #ff5c8a;
+  color: white;
+  cursor: pointer;
+  border: none;
+}
+
+.formulario p {
+  color: #f80759;
+}
+
+.espacio {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.editE h1 {
+  color: #ff5c8a;
+  font-size: 50px;
+}
+
+.boton {
+  display: block;
+  cursor: pointer;
+  width: 300px;
+  height: 200px;
+  font-size: 50px;
+  background: #f80759;
+  border: none;
+  font-family: "Rowdies", cursive;
+  box-shadow: 0 9px 14px rgba(0, 0, 0, 0.5);
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-left: 150px;
+}
+
+.boton:active {
+  background-color: #5ba2f6;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  transform: translateY(4px);
+}
+
+.medio {
+  height: 440px;
+  display: flex;
+  justify-content: center;
+}

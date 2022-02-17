@@ -1,0 +1,180 @@
+.tarea {
+    background-color: #f4e75b;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+.tarea p{
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.tarea button{
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    background:#5bf4c4;
+}
+.tarea a{
+    cursor: pointer;
+    text-decoration: none;
+    background:#5bf4c4;
+    
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.nota {
+    background-color: #f45bdd;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+.nota p{
+    margin-left: 10px; 
+    color: #fff;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.nota button{
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    background:#599ff1;
+   
+}
+.nota a{
+    cursor: pointer;
+    text-decoration: none;
+    background:#599ff1;
+    /*border: #599ff1;*/
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    color: #000;
+    
+}
+.recordatorio {
+    background-color: #cf85c4;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.recordatorio p{
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+.recordatorio button{
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    padding: 3px, 10px 3px 10px;
+    margin-bottom: 5px;
+    background: #f4e75b;
+}
+.recordatorio a{
+    cursor: pointer;
+    text-decoration: none;
+    background:#f4e75b;
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.inicio {
+    background-color: #599ff1;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px;
+}
+
+.inicio p{
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.inicio button{
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    background: #f45bdd;
+}
+.inicio a{
+    cursor: pointer;
+    text-decoration: none;
+    background:#f45bdd;
+    
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.final {
+    background-color: #5bf4c4;
+    width: 150px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    height: 150px; 
+    
+} 
+
+.final p{
+    margin-left: 10px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+}
+
+.final button{
+    cursor: pointer;
+    border: none;
+    margin-left: 15px;
+    padding : 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    background: #cf85c4;
+}
+.final a{
+    cursor: pointer;
+    text-decoration: none;
+    background:#cf85c4;
+    
+    margin-left: 15px;
+    padding: 3px 10px 3px 10px;
+    margin-bottom: 5px;
+    color: #000;
+}
+.tareas{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.notes{
+    display: flex;
+    justify-content: flex-start;
+    height: 440px;
+}
+
+.secNotes{
+    height: 440px;
+    padding: px;
+}

@@ -1,40 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/estilo.css">
+    <link rel="stylesheet" href="/css/formularios.css">
     <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300;1,400;1,800&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap" rel="stylesheet"> 
 </head>
+
+
 <body>
     <header>
         <nav class="nav">
             <section class="contenedor nav">
                 <div class="logo">
-                    <img src="/img/inicio.png" alt="">
+                    <img src="/img/editar.png" alt="">
                 </div>
                 <div class="enlaces">
-                    <a href="/registro">registro</a>
+                    <a href="/">Inicio</a>
                     <a href="/recordatorio">Revisa tus notas</a>
-                    <a href="/editar">Edita tus notas</a>
-                    
+                    <a href="/registro">registro</a>
+
                 </div>
 
             </section>
         </nav>
     </header>
-    <main>
-        <section class="medio contenedor">
-            <div class="foto"><img src="/img/notas.png" alt=""></div>
-            <div class="texto"><h1>Recordar algo nunca fue tan facil</h1></div>
+    <main class= "contenedor">
+                
+                <div id="prueba"></div> 
+            
+            
+
+
+
+       
+        <button onclick="contenido()" class = "boton" id="boton">Mostrar contenido</button> 
+        <section class ="secNotes">
+            <div class="oculto" id="oculto">
+                <div id=recordatorios class="tareas"></div>
+            </div>
         </section>
-           
-           
-           
     </main>
     
     <footer class="footer">
@@ -53,4 +67,6 @@
     </footer>
     
 </body>
+<script src="/js/edit.js"></script>
+
 </html>

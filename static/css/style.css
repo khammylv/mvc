@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.contenedor {
+  width: 90%;
+  max-width: 1200px;
+  overflow: hidden;
+  margin: auto;
+  padding: 60px 0;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background: #fff;
+  border-bottom: 1px solid transparent;
+  box-shadow: 1px 1px 10px 0 rgba(240, 7, 162, 0.2);
+  top: 0;
+  z-index: 100;
+  transition: ease-in-out 0.5s;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+  padding: 0 40px;
+}
+
+.contenedor-nav {
+  display: flex;
+  margin: auto;
+  width: 90%;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  height: inherit;
+  overflow: hidden;
+}
+.nav .logo {
+  height: 170px;
+}
+
+.nav .logo img {
+  height: 100%;
+  vertical-align: top;
+}
+
+nav .enlaces a {
+  display: inline-block;
+  padding: 5px 0;
+  margin-left: 20px;
+  font-size: 17px;
+  font-weight: 300;
+  text-decoration: none;
+  border-bottom: 3px solid transparent;
+  color: #f80759;
+}
+
+.enlaces {
+  transition: ease-in-out 0.5s;
+}
+
+.footer {
+  background-image: linear-gradient(to top, #ff5c8a 0%, #fbb1bd 100%);
+  width: 100%;
+  height: 114px;
+}
+
+.footer-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding-top: 35px;
+  padding-bottom: 0px;
+}
+
+.footer-con a {
+  display: inline-block;
+  text-decoration: none;
+  color: #fae0e4;
+  font-weight: 300;
+  transition: color 0.3s ease-in-out;
+  /* margin-bottom: 10px;*/
+  font-size: 30px;
+  border: 1px solid #fae0e4;
+  border-radius: 60%;
+  width: 46px;
+  height: 48px;
+  line-height: 50px;
+  cursor: pointer;
+  text-align: center;
+  transition: all ease-in-out 0.3s;
+}
+
+.footer-con a:hover {
+  color: #fae0e4;
+  background-color: #ff5c8a;
+  border-color: #ff5c8a;
+}
+
+
+/*index*/
+.medio{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.foto img{
+    padding: 30px;
+    width: 500px
+    
+   
+   
+}
+
+.texto h1{
+  font-size: 50px;
+  color:#ff5c8a;
+  margin-left: 30px;
+}
+
+
+.oculto{
+  display: block;
+}

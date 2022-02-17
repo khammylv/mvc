@@ -1,22 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/formularios.css">
+    <link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,500;0,700;1,300;1,400;1,800&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    <h1>Registro</h1>
-   <!-- <form method="post" action = "/registro" id="">-->
-    <form  id = "formulario" method="POST" action = "/registro"> 
-        <input type="text" name = "con_nota">
-        <input type="date" name = "f_inicio" >
-        <input type="date" name = "f_fin" >
-        <input type="text" name = "tipo_tarea">
+    <header>
+        <nav class="nav">
+            <section class="contenedor nav">
+                <div class="logo">
+                    <img src="/img/registro.png" alt="">
+                </div>
+                <div class="enlaces">
+                    <a href="/">Inicio</a>
+                    <a href="/recordatorio">Revisa tus notas</a>
+                    <a href="/editar">Edita tus notas</a>
+
+                </div>
+
+            </section>
+        </nav>
+    </header>
+    <main class = "contenedor registro">
+        <div class="letra">
+            <h1>Es hora de empezar a organizar tú vida</h1>
+        </div>
+       
+        <div class="regi">
+            <div class="formulario">
+                <form id="formulario" method="POST" action="/registro" clas="row" >
+                    <p>Escribe tu nota</p>
+                    <input type="text" name="con_recor" placeholder="Escribe tu nota" class = "note">
+                    <p>Fecha de inicio</p>
+                    <input type="date" name="f_inicio">
+                    <p>Fecha de fin</p>
+                    <input type="date" name="f_fin">
+                    <p>Tipo de tarea</p>
+                    <p>
+                        <label>
+                            <input type="radio" name="tipo_tarea" value="tarea" id="Formato_0" required>
+                            Tarea
+                        </label>
+                        <label>
+                            <input type="radio" name="tipo_tarea" value="nota" id="Formato_1">
+                            Nota</label>
+                        <label>
+                            <input type="radio" name="tipo_tarea" value="recordatorio" id="Formato_1">
+                            Recordatorio</label>
+                    </p>
+                    <p>Escribe tu nombre</p>
+                    <input type="text" name="nom_usuario" placeholder="Escribe tu nombre">
+                    <button>Enviar</button>
+                </form>
+            </div>
+            
+        </div>
         
-        <button>Enviar</button>
-    </form>
+    </main>
+    
+    <footer class="footer">
+        <div class="contenedor footer-con">
+            <a href="https://github.com/khammylv" target="_blank" class="social-media-icon">
+                <i class='bx bxl-github'></i>
+            </a>
+            <a href="https://www.linkedin.com/in/maria-camila-leal-vasquez-614365204/" target="_blank"
+                class="social-media-icon">
+                <i class='bx bxl-linkedin'></i>
+            </a>
+            <a href="mailto:khammylv@gmail.com" class="social-media-icon">
+                <i class='bx bx-mail-send'></i>
+            </a>
+        </div>
+    </footer>
     
 </body>
-</html>
+
+</html

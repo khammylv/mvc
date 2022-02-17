@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require("path")
 
-const notasRouters = require("./routers/notas")
+const recordatoriosRouters = require("./routers/recordatorios")
 
 
 function views(document){
@@ -20,12 +20,12 @@ app.set('port', 4000)
 
 
 //middleware
-
+app.use(express.static(path.join(__dirname,"static")))
 app.use(express.text());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
 
-app.use(notasRouters)
+app.use(recordatoriosRouters)
 
 
 
